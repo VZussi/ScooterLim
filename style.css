@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(imgs/background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.black-container {
+    margin: 30px auto;
+    width: 950px;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.548);
+    border-radius: 20px;
+    padding-top: 65px;
+}
+
+.black-container .slogan {
+    text-align: center;
+}
+
+.black-container .slogan img {
+    width: 20%;
+}
+
+.black-container .slogan h2 {
+    color: #01e501;
+    font-weight: 500;
+}
+
+.black-container .wrap {
+    width: 850px;
+    margin: auto;
+}
+
+.black-container .wrap nav {
+    background-color: #01e501;
+    height: 35px;
+    text-align: center;
+    margin: auto;
+    line-height: 35px ;
+}
+
+.wrap nav button {
+    font-size: 10px;
+    padding: 1px 2px;
+}
+
+.wrap .monopattino {
+    color: lightgray;
+    margin-top: 20px;
+}
+
+.wrap .monopattino label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.wrap .monopattino p {
+    font-size: 12px;
+}
+
+.monopattino .barra-carica {
+    height: 22px;
+    border-radius: 3px;
+}
+
+#stato-carica-gino {
+    background-color: rgb(255, 194, 82);
+    width: 280px;
+}
+
+#stato-carica-mike {
+    background-color: #01e501;
+    width: 500px;
+}
+
+#stato-carica-fede {
+    background-color: #af4040;
+    width: 115px;
+}
